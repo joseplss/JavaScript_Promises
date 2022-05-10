@@ -10,8 +10,6 @@
 6. Open the app.js file to get started
 
 ## Exercise 1
-
-```
 function watchTurorialCallback(callback, errorCallback) {
   let userLeft = false;
   let userWatchingLiveStream = true;
@@ -34,7 +32,6 @@ watchTurorialCallback(
     console.log(error.name + " " + error.message);
   }
 );
-```
 
 - The above function can be replicated as a Promise.
 
